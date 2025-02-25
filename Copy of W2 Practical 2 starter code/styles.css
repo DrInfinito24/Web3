@@ -12,7 +12,6 @@ body{
 h2,h3,h4,h5,h6{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: lightskyblue;
-    color: darkb;
 }
 h1{
     font-size: 2em;
@@ -64,7 +63,17 @@ aside h3{
 footer{
     background-color: lightskyblue;
     font-weight: bold;
+    margin:auto;
+    float:left;
 }
+
+#main-story figcaption{
+    background-color: aqua;
+    width:47.3%;
+    text-align: center;
+}
+
+  
 
 @media screen and (max-width:768px){
     img{
@@ -89,8 +98,10 @@ footer{
    }
    #page-title{
     width:55%;
-
-}
+    }
+    img{
+        float:none;
+    }
 }
 
 
